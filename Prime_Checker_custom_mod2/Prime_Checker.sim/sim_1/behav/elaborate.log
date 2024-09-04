@@ -1,0 +1,15 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 0bc9cc28809e467ca35eaab55491408b --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot PrimeChecker_tb_behav xil_defaultlib.PrimeChecker_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.PrimeChecker [primechecker_default]
+Compiling architecture bench of entity xil_defaultlib.primechecker_tb
+Built simulation snapshot PrimeChecker_tb_behav

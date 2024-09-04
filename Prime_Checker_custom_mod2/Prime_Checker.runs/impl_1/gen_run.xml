@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1712869819">
+  <File Type="OPT-DCP" Name="PrimeChecker_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="ROUTE-DCP" Name="PrimeChecker_routed.dcp"/>
+  <File Type="PA-TCL" Name="PrimeChecker.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="PrimeChecker_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="PrimeChecker_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="PrimeChecker_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="PrimeChecker.hwdef"/>
+  <File Type="PWROPT-DCP" Name="PrimeChecker_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="PrimeChecker_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="PrimeChecker_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="PrimeChecker_placed.dcp"/>
+  <File Type="PLACE-IO" Name="PrimeChecker_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="PrimeChecker_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="PrimeChecker_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PrimeChecker_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="PrimeChecker_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="PrimeChecker_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PrimeChecker_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="PrimeChecker_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PrimeChecker_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="PrimeChecker_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="PrimeChecker_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="PrimeChecker.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="PrimeChecker_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="PrimeChecker_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="PrimeChecker_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="PrimeChecker_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="PrimeChecker_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="PrimeChecker_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="PrimeChecker_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PrimeChecker_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PrimeChecker_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="PrimeChecker_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PrimeChecker_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="PrimeChecker_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="PrimeChecker_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PrimeChecker_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PrimeChecker_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PrimeChecker_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PrimeChecker_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="PrimeChecker.bit"/>
+  <File Type="BG-BIN" Name="PrimeChecker.bin"/>
+  <File Type="BITSTR-MSK" Name="PrimeChecker.msk"/>
+  <File Type="BITSTR-RBT" Name="PrimeChecker.rbt"/>
+  <File Type="BITSTR-NKY" Name="PrimeChecker.nky"/>
+  <File Type="BITSTR-BMM" Name="PrimeChecker_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="PrimeChecker.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="PrimeChecker.sysdef"/>
+  <File Type="BG-BGN" Name="PrimeChecker.bgn"/>
+  <File Type="BG-DRC" Name="PrimeChecker.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/PrimeChecker.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PrimeChecker"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab guides-20240303/DSDB_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Prime_Checker/Prime_Checker.srcs/constrs_1/imports/Lab guides-20240303/DSDB_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1710445982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
