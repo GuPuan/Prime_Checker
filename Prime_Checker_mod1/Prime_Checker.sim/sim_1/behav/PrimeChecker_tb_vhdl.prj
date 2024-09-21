@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  "../../../Prime_Checker.srcs/sources_1/new/PrimeChecker.vhd"
-vhdl xil_defaultlib  "../../../Prime_Checker.srcs/sim_1/new/PrimeChecker_tb.vhd"
-
-# Do not sort compile order
-nosort

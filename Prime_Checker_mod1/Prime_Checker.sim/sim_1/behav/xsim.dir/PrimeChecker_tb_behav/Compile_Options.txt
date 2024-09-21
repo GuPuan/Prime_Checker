@@ -1,1 +1,0 @@
--wto "0bc9cc28809e467ca35eaab55491408b" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "PrimeChecker_tb_behav" "xil_defaultlib.PrimeChecker_tb" -log "elaborate.log" 
